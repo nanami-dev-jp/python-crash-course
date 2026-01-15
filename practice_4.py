@@ -43,8 +43,20 @@
 
 ## 4-7
 
-threes = list(range(3, 31, 3))
+# threes = list(range(3, 31, 3))
 
-for number in threes:
-    print(number)
+# for number in threes:
+#     print(number)
 
+
+## 4-8 ★自力で解けた！！
+# list = []
+# for number in range(1, 11):
+#     list = number ** 3
+#     print(list)
+
+
+## 4-9
+cubes = [number ** 3 for number in range(1, 11)]
+for cube in cubes:
+    print(cube)
